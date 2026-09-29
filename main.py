@@ -37,8 +37,8 @@ elif page == 'Picture Display':
     if st.button('Show Picture'):
         st.image(
             'https://commons.wikimedia.org/wiki/Special:Redirect/file/Berries_(USDA_ARS).jpg',
-        caption='Fresh Berries',
-        use_container_width=True
+            caption='Fresh Berries',
+            use_container_width=True
         )
 
 
